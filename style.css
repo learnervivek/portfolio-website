@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    padding: 30px 50px;
+    height: 100vh;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-image: url(img.jpg);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    z-index: 1;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #6c707c;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #292929;
+}
+.menu li a:hover{
+    background-color: #292929;
+    color: #fff !important;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+.name{
+    width: 500px;
+    position: absolute;
+    right: -3%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    text-transform: capitalize;
+}
+.name span{
+    color: red;
+    font-weight: bold;
+}
+.name p:nth-child(1),
+.name .detail{
+    color: #3a3a3d;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.name h1{
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 3px;
+    color: #292929;
+    text-transform: uppercase;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #292929;
+    border:2px solid #292929;
+}
+.social{
+    position: absolute;
+    left: 63%;
+    bottom: 100px;
+    display: flex;
+}
+.social a{
+    margin: 6px 12px;
+}
+.social i{
+    color: rgba(18, 17, 17, 0.40);
+    font-size: 25px;
+}
+.social a:hover i{
+    color: red;
+
+}
